@@ -14,7 +14,10 @@
 	<div class="HeaderTop">
 		<div class="Logo" ><img src="logo.png" class="LogoPhoto" /></div>
 		
-		<div class="Cart" ><img src="cart.png"  /></div>
+		<div class="Cart" >
+		<div><img src="cart.png"  /></div>
+		<div class="CartStatus">Козина пуста</div>
+		</div>
 		<div class="Login" >
 			<span class="personal" id="link_login">Вход</span> &nbsp&nbsp <a href="/registration/" rel="nofollow">Регистрация </a>				
 		</div>
@@ -72,8 +75,10 @@
 	.logIn A:hover {text-decoration:none;}
 	.personal{text-decoration:underline;}
 	.personal:hover{cursor:pointer;text-decoration:none;}
-
-	.menu{background-color:#f5f5f5;width:100%;height:55px}
+	.cart{margin-top:20px}
+	.cartStatus{text-align:center;font-size:13;margin-top:4px}
+	
+	.menu{background-color:#f5f5f5;width:100%;height:55px;border-width:1px 0 0 0;border-color:#8d93a1;border-style:solid;}
 	.menuB_1, .menuB_2, .menuB_3, .menuB_4, .menuB_5, .menuB_6, .menuB_7 {
 		display:inline-block;float:left;width:12%;text-align:center;font-size:16	}
 	.menuB_1{margin-left:70px}
