@@ -82,13 +82,14 @@
             <input  id="counter" type="text" size="1" value="2" onmouseout="$('#summaSlot').val($('#counter').val()*34)">
             <input class="minus" type="button" value="-" onclick="dec()" >
         </td>
-        <td rowspan="2">  <input class="deleteBlock" type="button" value="X" ></td>                                                                                           <!-- удалить блок-->
+        <td >  <input class="deleteBlock" type="button" value="X" ></td>                                                                                           <!-- удалить блок-->
     </tr>
     <tr class="sec">
         <td class="priceSlot"><span id="priceSlot">34,54</span> <b>руб. </b> за штуку</td>                               <!-- цена за штуку-->
         <td class="summaSlot" >                                                                                         <!-- суммарная стоимость данного товара-->
             <input id="summaSlot" type="text" value="" size="auto">руб
         </td>
+        <td><img class="star" src="IMG/star.png" alt="Избранное"> </td>
     </tr>
     <tr class="rasd"><td class="rasd" colspan="4"></td></tr>
     <tr>
@@ -100,13 +101,16 @@
             <input  id="counter" type="text" size="1" value="2" onmouseout="$('#summaSlot').val($('#counter').val()*34)">
             <input class="minus" type="button" value="-" onclick="dec()" >
         </td>
-        <td rowspan="2">  <input class="deleteBlock" type="button" value="X" ></td>                                                                                           <!-- удалить блок-->
+        <td>
+            <input class="deleteBlock" type="button" value="X" >
+        </td>
     </tr>
     <tr>
         <td class="priceSlot"><span id="priceSlot">34,54</span> <b>руб. </b> за штуку</td>                               <!-- цена за штуку-->
         <td class="summaSlot" >                                                                                         <!-- суммарная стоимость данного товара-->
             <input id="summaSlot" type="text" value="" size="auto">руб
         </td>
+        <td><img class="star" src="IMG/star.png" alt="Избранное"></td>
     </tr>
     <tr class="rasd"><td class="rasd" colspan="4"></td></tr>
     </tbody>
@@ -126,7 +130,10 @@
     <div class="corzina">
         <img src="img/cart_1.png">
     </div>
-    <div class="dopFunc"> Дополнительные функции доступны <a href="...">зарегистрированым</a> пользователям</div>
+    <div class="dopFunc"> Дополнительные функции доступны <a href="...">зарегистрированым</a> пользователям</div>       <!-- Для незарегистрированных пользователей-->
+    <div class="Fav"  ><a href="/Favourite.html" >Избранное </a></div>                                                  <!--Для зарегистрированных-->
+    <div class="Opt"  >  <a href="/Options.html" >Настройки </a></div>                                                  <!--Для зарегистрированных-->
+
 </div>
 </body>
 <script type="text/javascript" src="js/header.js "></script>
