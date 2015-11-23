@@ -19,11 +19,11 @@
         <div class="Logo" ><img src="img/logo.png" class="LogoPhoto" /></div>
 
         <div class="Cart" >
-            <div><img src="img/cart.png"  /></div>
+            <div><a href="cart.html"><img src="img/cart.png"  /></a></div>
             <div class="CartStatus">Козина пуста</div>
         </div>
         <div class="LoginLink" >
-            <span class="personal" id="link_login">Вход</span> &nbsp&nbsp <a href="/registration/" rel="nofollow">Регистрация </a>
+            <span class="personal" id="link_login"><a href="login.html" rel="nofollow">Вход</a></span> &nbsp&nbsp <a href="registration.html" rel="nofollow">Регистрация </a>
         </div>
         <div class="TopCenter">
             <div class="Searcher" >		<input id="x" class="x"  value="Найти"  name="submit" type="submit"  ><input    name="search"></div>
@@ -105,33 +105,13 @@
             <p class="error" id="pass_text"></p>
         </div>
     </div>
-    <div class="cart_m"  ><a href="/Cart.html" >Корзина </a></div>
-    <div class="izbrannoe_m"><a href="/Favourite.html" >Избранное </a></div>
+    <div class="cart_m"  ><a href="Cart.html" >Корзина </a></div>
+    <div class="izbrannoe_m"><a href="Favourite.html" >Избранное </a></div>
     <div class="Opt_m"  >  <img src="img/options_1.png"></div>
 
 </div>
 </body>
 <script type="text/javascript" src="js/header.js "></script>
 
-<script type="text/javascript">
-    $(document).ready(function() {
-        $(".fancybox").fancybox();
-    });
-    function inc(){
-        var i=$('#counter').val();
-        i=++i;
-        $('#counter').val(i);
-        $('#summaSlot').val($('#counter').val()*34)
-    }
-    function dec() {
-        var i = $('#counter').val();
-        if (i >= 1)
-            i = --i;
-        $('#counter').val(i);
-        $('#summaSlot').val($('#counter').val()*34)
-    }
-    $('#summaSlot').val($('#counter').val()*34);
-
-</script>
 
 </html>
