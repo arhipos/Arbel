@@ -1,0 +1,25 @@
+.fon_opt_fav_cart{max-width:1350px;min-width:1180px;margin-left:auto;margin-right:auto;height:800px;}
+.tablica {position:absolute;}
+.cart_m, .opt_m, .izbrannoe_m{position:relative;width:200px;font-family: Geneva, Arial, Helvetica;font-size: 23}
+.cart_m{top:120px;left:862px;}
+.opt_m{top:190px;left:862px;}
+.izbrannoe_m{top:150px;left:816px}
+table{width:700px;border-width:1px; border-color: #9e9e9e;border-style:solid; }
+TR td{height:50px;border-width:0 }
+.tablica{margin-top:60px;margin-left:50px}
+tr img{width:50px;heigh:50px;margin-left:25px}
+.imgSlot{width:100px}
+.nameSlot{width:360px;overflow: auto;font-size:17;font-family: Geneva, Arial, Helvetica}
+.nameSlot a:hover {text-decoration: none}
+.priceSlot {padding-bottom:30px;}
+td span {font-weight: bold}
+.tocart{width:200px}
+#tocart{width:100px;height:28px;margin-left: 40px}
+.plus{margin-right: -4px;border-right:0;width:21px}
+.minus{margin-left: -4px;border-left:0;width:21px}
+#summaSlot{width:30px;border:0;margin-right: 2px;margin-left:30px;margin-top:3px}
+.deleteBlock{margin-top:-10px;border:0;background-color: #fff;}
+#counter{text-align: center}
+.rasd{border-width: 0 0 0.5px 0;height: 1px}
+tfoot .submit1{margin-left: 160px;width:150px;height:27px}
+.footCount{text-align: right}

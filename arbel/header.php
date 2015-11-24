@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC>
+﻿<!DOCTYPE HTML PUBLIC>
 <html>
 <head>
 <title>
@@ -23,7 +23,6 @@
 		</div>
 		<div class="LoginLink" >
 			<span class="personal" id="link_login"><a href="login.html" rel="nofollow">Вход</a></span> &nbsp&nbsp <a href="registration.html" rel="nofollow">Регистрация </a>
-		</div>
 		</div>
 		<div class="TopCenter">
 			<div class="Searcher" >		<input id="x" class="x"  value="Найти"  name="submit" type="submit"  ><input    name="search"></div>
