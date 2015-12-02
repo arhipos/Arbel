@@ -1,6 +1,6 @@
 ﻿<meta http-equiv="Content-Type" content="text/html; Charset=utf-8"/>
-<script src="JS/jquery-2.1.3.js"></script>
-<script src="JS/jquery-2.1.3.min.js"></script>
+<script src="js/jquery-2.1.3.js"></script>
+<script src="js/jquery-2.1.3.min.js"></script>
 <link rel="stylesheet" type="text/css" href="CSS/main.css"/>
 </head>
 

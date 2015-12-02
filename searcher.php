@@ -5,8 +5,8 @@
         АРБЕЛ - канцелярия
     </title>
     <link rel="stylesheet" type="text/css" href="CSS/searcher.css"/>
-    <script type="text/javascript" src="JS/jquery.fancybox.js"></script>
-    <link rel="stylesheet"  type="text/css" href="CSS/jquery.fancybox.css" media="screen" />
+    <script type="text/javascript" src="fancybox/source/jquery.fancybox.js?v=2.1.5"></script>
+    <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 <?php require("header.php") ?>
 <div class="fon_opt_fav_cart">
     <div class="tablica"><table  bordercolor="black" border="2" >                                         <!-- таблица с товарами корзины-->

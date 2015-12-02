@@ -6,8 +6,8 @@
     </title>
 
     <link rel="stylesheet" type="text/css" href="CSS/tovForm.css"/>
-    <script type="text/javascript" src="JS/jquery.fancybox.js?v=2.1.5"></script>
-    <link rel="stylesheet" href="CSS/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <script type="text/javascript" src="fancybox/source/jquery.fancybox.js?v=2.1.5"></script>
+    <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 	<?php require("header.php") ?>
 <div class="tovForm">
     <div class="photo" >
