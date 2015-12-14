@@ -1,25 +1,173 @@
-.fon_opt_fav_cart{max-width:1350px;min-width:1180px;margin-left:auto;margin-right:auto;height:800px;}
-.tablica {position:absolute;}
-.cart_m, .opt_m, .izbrannoe_m{position:relative;width:200px;font-family: Geneva, Arial, Helvetica;font-size: 23}
-.cart_m{top:120px;left:862px;}
-.opt_m{top:190px;left:862px;}
-.izbrannoe_m{top:150px;left:816px}
-table{width:700px;border-width:1px; border-color: #9e9e9e;border-style:solid; }
-TR td{height:50px;border-width:0 }
-.tablica{margin-top:60px;margin-left:50px}
-tr img{width:50px;heigh:50px;margin-left:25px}
-.imgSlot{width:100px}
-.nameSlot{width:360px;overflow: auto;font-size:17;font-family: Geneva, Arial, Helvetica}
-.nameSlot a:hover {text-decoration: none}
-.priceSlot {padding-bottom:30px;}
-td span {font-weight: bold}
-.tocart{width:200px}
-#tocart{width:100px;height:28px;margin-left: 40px}
-.plus{margin-right: -4px;border-right:0;width:21px}
-.minus{margin-left: -4px;border-left:0;width:21px}
-#summaSlot{width:30px;border:0;margin-right: 2px;margin-left:30px;margin-top:3px}
-.deleteBlock{margin-top:-10px;border:0;background-color: #fff;}
-#counter{text-align: center}
-.rasd{border-width: 0 0 0.5px 0;height: 1px}
-tfoot .submit1{margin-left: 160px;width:150px;height:27px}
-.footCount{text-align: right}
+.searcherBody{max-width:1350px;min-width:1180px;margin-left:auto;margin-right:auto;height:800px;}
+
+
+.searchOptions{position:relative;float:left;width:300px;min-height:500px;border-width:1px; border-color: #9e9e9e;border-style:solid;margin-left:25px}
+	.priceDiapazone{border-width:0 0 1px 0; border-color: #9e9e9e;border-style:solid;height:100px}
+		.minCost, .maxCost {width:85px;border:0px;margin-left:4px;}
+		input[type="text"]:focus { outline: none; }
+		.minCost{margin-right:12px}
+		.field_1, .field_2{padding:2px;border-width:1px;border-style:solid;border-color:#9e9e9e;margin-left:20px;}
+		.rub{margin:10px 0 10px 20px}
+	.priceDiapazoneFocus{border-width:1px 1px 2px 1px;border-color:#808080;border-style:solid;height:110px;}
+	.rubFocus{margin:9px 0 10px 19px}
+	
+.stockBox	{
+	position:relative;
+	float:left;
+	width:65%;
+	min-width:700px;
+	max-width:900px;
+	border-width:1px 1px 0 1px;
+	border-style: solid ;
+	border-color:#9e9e9e;
+	margin-left:20px;	
+}
+.boxHead{
+	width:100%;
+	height:25px;	
+}
+.sort{
+	position:absolute;
+	top:3px;
+	left:10px;
+	font-size:15px;
+}
+.boxElement, .boxHead {border-bottom:1px solid #9e9e9e;}	
+.boxElement{
+	position:relative;
+	width:100%;
+	height:130px;	
+}
+.imgSlot{
+	position:relative;
+	float:left;
+	width:135px;
+	height:100%;
+	border-right:1px solid #9e9e9e;
+}
+.imgSlot img{
+	height:120px;
+	width:120px;
+	margin:5px;
+}
+/* Блок Название+ аттрибуты */
+.name_attr{
+	position:relative;
+	height:100%;
+	width:50%;	
+	max-width:500px;
+	float:left;
+	
+}
+.nameSlot{
+	padding:5px 0 0 15px;
+	font-size:17;
+	font-family: Geneva, Arial, Helvetica
+}
+.attr{
+	position:relative;
+	float:left;
+	width:55%;
+	height:100px;
+	overflow:hidden;
+}
+
+.attr ul {
+	margin-top:10px;
+	font-size:15;
+	font-family: Geneva, Arial, Helvetica;
+}
+.ostatok{
+	margin-top:10px;
+	position:relative;
+	float:right;
+	width:43%;
+	height:10px;
+
+}
+/* Блок кнопок в избр и в корз */
+.fav_cart{
+	position:relative;
+	float:right;
+	height:100%;
+	width:240px;
+}
+/* стиль кнопки "В избранное" */
+	.addToFavourite{width:130px;height:30px;float:right;margin: 5px 15px 0 0;border-radius:20px 3px 3px 20px;outline: none;}
+	.imgStar_1, .imgStar_2{width:16px;height:16px;vertical-align:middle;margin-left:-10px;;margin-right:10px}
+	.imgStar_2{display:none}
+	.favStar_2, .favStar_3{display:none;width:26px;float:right;margin-right:35px}
+	.favStar_2{height:26px;}
+	.favStar_3{height:33px;}
+/*стиль поля +- и кнопки "В корзину" */
+	.toCart{margin-top:90px}
+	.plus{margin-right: -4px;border-right:0;width:28px;height:28px}
+	.minus{margin-left: -4px;border-left:0;width:28px;height:28px}
+	#counter{text-align: center;height:28px;}
+	.addToCart{width:110px;height:28px}
+
+/* Ширина слайдера */
+#slider {
+	width: 210px;
+	margin-top:18px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#slider  a:focus {outline:none}
+/* Контейнер слайдера */
+.ui-slider {
+	position: relative;
+}
+/* Ползунок */
+.ui-slider .ui-slider-handle {
+	position: absolute;
+	z-index: 2;
+	width: 8px;   /* Задаем нужную ширину */
+	height: 13px;  /* и высоту */
+	background: url(../IMG/slider.png) no-repeat; /* картинка изображающая ползунок. Или можно залить цветом, задать бордюр и скругления */
+	cursor: pointer
+	
+}
+.ui-slider .ui-slider-range {
+	position: absolute;
+	z-index: 1;
+	font-size: .7em;
+	display: block;
+	border: 0;
+	overflow: hidden;
+}
+/* горизонтальный слайдер (сама полоса по которой бегает ползунок) */
+.ui-slider-horizontal {
+	 height: 3px; /* задаем высоту согласно дизайна */
+}
+/* позиционируем ползунки */
+.ui-slider-horizontal .ui-slider-handle { 
+	top: -5px;
+	margin-left: -6px;
+}
+.ui-slider-horizontal .ui-slider-range {
+	top: 0;
+	height: 100%;
+}
+.ui-slider-horizontal .ui-slider-range-min { 
+	left: 0;
+}
+.ui-slider-horizontal .ui-slider-range-max {
+	right: 0;
+}
+/* оформление полосы по которой ходит ползунок */
+.ui-widget-content { 
+	border: 1px solid #034FA3;
+	background: #fff;
+}
+/* оформление активного участка (между двумя ползунками) */
+.ui-widget-header { 
+	border: 1px solid #034FA3;
+	background: #034FA3;
+}
+/* скругление для полосы слайдера */
+.ui-corner-all {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}

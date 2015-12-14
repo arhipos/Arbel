@@ -4,21 +4,27 @@
     <title>
         АРБЕЛ - канцелярия
     </title>
+	<meta http-equiv="Content-Type" content="text/html; Charset=utf-8"/>
+    <script src="JS/jquery-1.6.1.min.js"></script>
+    <script type="text/javascript" src="JS/jquery.fancybox.js"></script>
 
+    <link rel="stylesheet" type="text/css" href="CSS/main.css"/>
     <link rel="stylesheet" type="text/css" href="CSS/tovForm.css"/>
-    <script type="text/javascript" src="fancybox/source/jquery.fancybox.js?v=2.1.5"></script>
-    <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <link rel="stylesheet" href="CSS/jquery.fancybox.css" type="text/css" media="screen" />
 	<?php require("header.php") ?>
 <div class="tovForm">
+
     <div class="photo" >
-         <a class="fancybox"  href="img/examplePen.jpg" title="Увеличить" >             <!-- каритнка товара-->
-          <img  src="img/examplePen.jpg"   /></a>
+         <a class="fancybox"  href="IMG/examplePen.jpg" title="Увеличить" >             <!-- каритнка товара-->
+          <img  src="IMG/examplePen.jpg"   /></a>
     </div>
     <div class="categoryPath">
-        <a   href="..." > тут нужно указать назв выбранной категор/</a>
+        <a   href="..." > тут нужно указать назв выбранной категории/</a>
         <a   href="..." >  здесь назв подкатегории </a>
     </div>
-    <div class="Name">Ручка Pilot grip Pro </div>                                       <!-- сюда Название-->
+    <div class="Name">Ручка Pilot grip Pro 	<button class="addToFavourite" >
+			<img  class="imgStar_1" src="IMG/star_1.png"  >  
+	</button></div>                                       <!-- сюда Название-->
     <div class="Discription"> Ручка гелевая синего цвета с резиновым держателем ширина письма 0,7 мм произведено в России</div>
     <div class="Param">
         <li class="size">Размеры:<span id="size">a</span> </li>
@@ -26,7 +32,6 @@
         <li class="Ed">Единица:<span id="Ed">шт</span></li>
         <li class="Art">Артикул:<span id="Art"> 1437</span></li>
     </div>
-    <div class="addToFavourite"> <input class="favouriteB" type="button" value="В избранное" onclick="" ></div>
     <div class="pusto"></div>
     <div class="addToCart">
         <span id="priceSlot">34,54 руб.</span>
@@ -61,7 +66,7 @@
     $('#summaSlot').val($('#counter').val()*34);
 
 
-    $(document).ready(function(){ if ( $("#size").html() == '') {$(".size").css('visibility','hidden')}});
+    $(document).ready(function(){ if ( $("#size").html() == '') {$(".size").css('visibility','hidden')}}); 
     $(document).ready(function(){ if ( $("#weight").html() == '') {
         $(".weight").css('display','none');
         $(".pusto").css('display','block')

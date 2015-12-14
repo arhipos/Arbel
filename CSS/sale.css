@@ -113,23 +113,3 @@
 	cursor:pointer;
 }
 
-
-
-
-
-/*Вид правого блока*/
-.rightBlock{
-	position:relative;
-	float:right;
-	width:260px;
-	margin:30px 130px 0 0;}
-.corzina, .opt { position:absolute;font-family: Geneva, Arial, Helvetica;font-size: 23}
-.corzina a:hover, .corzina a:visited, .opt a:hover, .opt a:visited{text-decoration:none;color:blue}
-.corzina{left:47px;top:12px;}
-.fav{position:absolute;top:45px;}
-.opt{top:105px;left:47px;}
-
-
-
-
-

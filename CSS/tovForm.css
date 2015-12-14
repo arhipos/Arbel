@@ -1,9 +1,9 @@
 .tovForm{position:relative;max-width:1350px;min-width:1180px;margin-left:auto;margin-right:auto;height:800px}
 .photo{position:absolute;top:50px;z-index: 0;}
-.photo img{width:400px;height:400px;margin:20px 60px 0 50px}
-.categoryPath{float:left;margin-left:300px;margin-top:70px}
+.photo img{width:330px;height:330px;margin:20px 60px 0 50px}
+.categoryPath{float:right;margin-right:20%;margin-top:70px}
 .categoryPath a{text-decoration: none; color:grey;letter-spacing: 0.22;}
-.name{float:left;margin-left:570px;margin-top:10px;font-size: 32;font-weight: bold;font-family: Geneva, Arial, Helvetica, sans-serif}
+.name{float:left;margin-left:570px;margin-top:10px;font-size: 32;width:40%;font-weight: bold;font-family: Geneva, Arial, Helvetica, sans-serif}
 .discription{float:left;margin-left:570px;margin-top:20px;width:500px;min-height: 90px; max-height:160px}
 .param{float:left;margin-left:570px;margin-top:10px}
 span {font-weight:bold }
@@ -12,8 +12,9 @@ span {font-weight:bold }
 #ed{padding-left: 25px;}
 #art{padding-left: 21px}
 .pusto{float:left;margin-left:570px;margin-top:10px;background-color: red;height:10px;width:200px;display:none}
-.addToFavourite{float:right;width:150px}
-
+	.addToFavourite{width:22px;height:22px;outline: none;border:none;background-color:white;position:relative;float:right}
+	.imgStar_1{width:22px;height:22px;vertical-align:middle;margin-left:-10px;;margin-right:10px}
+	.imgStar_1:hover{cursor:pointer}
 .addToCart{float:left;margin-left:570px;margin-top:10px;width:540px;border-width:1.2px  0 0 0;border-color: #c5c5c5;border-style:solid;padding-top:22px}
     .plus{;margin:10px -4px 0 20px;border-right:0;width:30px;height:30px}
     .minus{margin-left: -4px;border-left:0;width:30px;height:30px}

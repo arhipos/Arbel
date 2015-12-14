@@ -4,10 +4,12 @@
     <title>
         АРБЕЛ - канцелярия
     </title>
+<meta http-equiv="Content-Type" content="text/html; Charset=utf-8"/>
+<script src="JS/jquery-1.6.1.min.js"></script>
+<link rel="stylesheet" type="text/css" href="CSS/main.css"/>
+<link rel="stylesheet" type="text/css" href="CSS/options.css"/>
 
-    <link rel="stylesheet" type="text/css" href="CSS/options.css"/>
-    <script type="text/javascript" src="fancybox/source/jquery.fancybox.js?v=2.1.5"></script>
-    <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+
 	
 	<?php require("header.php") ?>
 <div class="fon_opt_fav_cart">
@@ -45,9 +47,9 @@
             <p class="error" id="pass_text"></p>
         </div>
     </div>
-    <div class="cart_m"  ><a href="Cart.php" >Корзина </a></div>
-    <div class="izbrannoe_m"><a href="Favourite.php" >Избранное </a></div>
-    <div class="Opt_m"  >  <img src="img/options_1.png"></div>
+    <div class="cart_m"  ><a href="cart.php" >Корзина </a></div>
+    <div class="izbrannoe_m"><a href="favourite.php" >Избранное </a></div>
+    <div class="Opt_m"  >  <img src="IMG/options_1.png"></div>
 
 </div>
 </body>
