@@ -13,103 +13,53 @@
 
 <link rel="stylesheet" href="CSS/jquery.fancybox.css" type="text/css" media="screen" />
 <link rel="stylesheet" type="text/css" href="CSS/main.css"/>
-<link rel="stylesheet" type="text/css" href="CSS/favourite.css"/>
+<link rel="stylesheet" type="text/css" href="CSS/sale.css"/>
 
-
+</head>
 <?php require("header.php") ?>
 
 <div class="favBody">
 	<div class="leftBlock">
-		<div class="emtyBox">
-			<img src="IMG/star_2.png"><div class="emtyText">Ваша корзина пуста</div>
-		</div>
-		<div class="stockBox">
-			<div class="boxHead">
-				<span class="sort">Сортировать по:</span>
+		<div class="salesBlock">
+			<div class="history">
+				Ваша история покупок
 			</div>
-			<div class="boxElement" id="element1">
-				<div class="imgSlot">	
-					<a class="fancybox" href="IMG/examplePen.jpg" title="Увеличить">
-						<img src="IMG/examplePen.jpg"/>
-					</a>
-				</div>
-				<div class="name_price">
-					<div class="nameSlot">
-						<a href ="...карточка товара">Pilot Grip синий гелевый </a>
-					</div>
-					<div class="priceSlot" > 
-						Цена<span id="priceSlot"> 34,54</span> руб. 
-					</div>
-					<div class="ostatok" style="color:red">
-					Под заказ(2-3дня)
-					</div>
-				</div>			
-				<div class="countElemnt">
-						<input class="plus" type="button" value="+" onclick="inc()"/>
-						<input  id="counter" type="text" size="1" value="1" onmouseout="$('#summaSlot').val($('#counter').val()*34)"/>
-						<input class="minus" type="button" value="-" onclick="dec()" /> 							
-					<div class="sumElement">= <span id="sumElement">34,54</span> руб</div>
-					<input class="addToCart" type="button" value="В корзину" onclick=""/>
-				</div>
-				<div class="deleteElement">
-					<input class="deleteThis" id="deleter" type="button"  onclick="deleteElem()"/>
-				</div>
+			<div class="wTosale">
+				Осталось до <span class="saleType">(тип)</span> скидки:
 			</div>
-			<div class="boxElement" id="element2">
-				<div class="imgSlot">	
-					<a class="fancybox" href="IMG/example2.jpg" title="Увеличить">
-						<img src="IMG/example2.jpg"/>
-					</a>
+			<div class="typesBlock">
+				<div class="block1">
+					<p>Виды:</p>
+				<ul>
+					<li>Bronze 2%</li>
+					<li>Silver 5%</li>
+					<li>Gold 7%</li>
+					<li>Platinum 10%</li>
+				</ul>	
 				</div>
-				<div class="name_price">
-					<div class="nameSlot">
-						<a href ="...карточка товара">Калькулятор Citizen </a>
-					</div>
-					<div class="priceSlot" > 
-						Цена<span id="priceSlot"> 728</span> руб. 
-					</div>
-					<div class="ostatok" style="color:green">
-					 В наличии 
-					</div>
-				</div>			
-				<div class="countElemnt">
-					<input class="plus" type="button" value="+" onclick="inc()"/>
-					<input  id="counter" type="text" size="1" value="1" onmouseout="$('#summaSlot').val($('#counter').val()*34)"/>
-					<input class="minus" type="button" value="-" onclick="dec()" /> 							
-				<div class="sumElement">= <span id="sumElement">728</span> руб</div>
-				<input class="addToCart" type="button" value="В корзину" onclick=""/>
-				</div>
-				<div class="deleteElement">
-					<input class="deleteThis" type="button"  onclick="deleteElem2()"/>
+				<div class="block2">
+					<p>Требуется:</p>
+				<ul>
+					<li><span class="saleSpan"> для получения купите товара на 10 000руб</span></li>
+					<li><span class="saleSpan"> для получения купите товара на 20 000руб</span></li>
+					<li><span class="saleSpan"> для получения купите товара на 50 000руб</span></li>
+					<li><span class="saleSpan"> для получения купите товара на 100 000руб</span></li>
+				</ul>
 				</div>
 			</div>
 		</div>
 	</div>
 	<div class="rightBlock">
 		<div class="corzina"> <a href="cart.php" >Корзина </a></div>
-		<div class="Fav"  ><a href="favourite.php" ><img src="IMG/izbrannoe_1.png"> </a></div>                                                  				<!--Для зарегистрированных-->
-		<div class="Opt"  >  <a href="options.php" >Настройки </a></div>                                                  				<!--Для зарегистрированных-->
+		<div class="Fav"><a href="favourite.php" >Избранное </a></div>                                           
+		<div class="Opt"><a href="options.php" >Настройки </a></div>       															
+		<div class="Sal"><a href="sale.php" ><img src="IMG/sale_1.png"> </a></div>  																
 	</div>
 </div>
 </body>
 
 <script type="text/javascript">
-	 if ($(".stockBox").css("height") == $(".boxHead").css("height") ) {
-		 $(".stockBox").css("visibility", "hidden");
-		 $(".emtyBox").fadeIn()
-		 };
-	function deleteElem(){
-		$("#element1").animate({height:"0",opacity:"0"}, {duration: 500, specialEasing: { height: 'linear'}})};
-	function deleteElem2(){$.when(
-		$("#element2").animate({height:"0",opacity:"0"}, {duration: 500, specialEasing: { height: 'linear'}})).then(
-		function(){
-					if ( $( '.stockBox' ).has('.boxElement').css("height")<'10px' ) {}
-					else{	$(".stockBox, .submitCartButton").css("display", "none");
-						$(".emtyBox").fadeIn()
-																}
-				});	
-	};
-	
+
 </script>
 
 </html>

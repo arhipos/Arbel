@@ -96,10 +96,13 @@
 		</div>
 	</div>
 	<div class="rightBlock">
+	 <!-- Для незарегистрированных пользователей-->
 		<div class="corzina"><img src="IMG/cart_1.png"></div>
-		<div class="dopFunc"> Допонительные функции доступны <a href="registration.php">зарегистрированым</a> пользователям</div>       <!-- Для незарегистрированных пользователей-->
-		<div class="Fav"  ><a href="favourite.php" >Избранное </a></div>                                                  				<!--Для зарегистрированных-->
-		<div class="Opt"  >  <a href="options.php" >Настройки </a></div>                                                  				<!--Для зарегистрированных-->
+		<div class="dopFunc"> Допонительные функции доступны <a href="registration.php">зарегистрированым</a> пользователям</div>    
+	<!-- Для ЗАрегистрированных пользователей-->		
+		<div class="Fav"  ><a href="favourite.php" >Избранное </a></div>  
+		<div class="Sal"><a href="sale.php" >Скидки/История </a></div>  		
+		<div class="Opt"  >  <a href="options.php" >Настройки </a></div>                                                  				
 	</div>
 </div>
 

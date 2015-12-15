@@ -87,8 +87,10 @@
 	</div>
 	<div class="rightBlock">
 		<div class="corzina"> <a href="cart.php" >Корзина </a></div>
-		<div class="Fav"  ><a href="favourite.php" ><img src="IMG/izbrannoe_1.png"> </a></div>                                                  				<!--Для зарегистрированных-->
-		<div class="Opt"  >  <a href="options.php" >Настройки </a></div>                                                  				<!--Для зарегистрированных-->
+		<!-- Для зарегистрированных пользователей-->
+		<div class="Fav"  ><a href="favourite.php" ><img src="IMG/izbrannoe_1.png"> </a></div> 
+		<div class="Sal"><a href="sale.php" >Скидки/История </a></div>  		
+		<div class="Opt"  >  <a href="options.php" >Настройки </a></div>                                                  				
 	</div>
 </div>
 </body>

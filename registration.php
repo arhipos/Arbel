@@ -4,8 +4,10 @@
 <title>
 АРБЕЛ- канцелярия
 </title>
+<meta http-equiv="Content-Type" content="text/html; Charset=utf-8"/>
+<script src="JS/jquery-1.6.1.min.js"></script>
 <link rel="stylesheet" type="text/css" href="CSS/registration.css"/>
-
+<link rel="stylesheet" type="text/css" href="CSS/main.css"/>
 <?php require("header.php") ?>
 
 <div class="registration">

@@ -145,8 +145,10 @@
 	float:right;
 	width:260px;
 	margin:30px 130px 0 0;}
-.dopFunc, .fav, .opt { position:absolute;font-family: Geneva, Arial, Helvetica;font-size: 23}
-.fav a:hover, .fav a:visited, .opt a:hover, .opt a:visited{text-decoration:none;color:blue}
+.dopFunc, .fav, .opt, .sal { position:absolute;font-family: Geneva, Arial, Helvetica;font-size: 23}
+.fav a:hover, .opt a:hover, .sal a:hover {text-decoration:underline;font-size: 24;}
+.fav a, .fav a:visited, .opt a, .opt a:visited, .sal a, .sal a:visited{text-decoration:none;color:blue}
 .dopFunc{top:50px;width:200px;color: #626262;display:none }
-.fav{position:absolute;top:58px;left:47px;}
-.opt{top:105px;left:47px;}
+.fav{top:58px;left:47px;}
+.sal{top:100px;left:47px;}
+.opt{top:138px;left:47px;}

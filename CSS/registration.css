@@ -6,3 +6,4 @@
 .reg_form{text-align:center;}
 .reg_form H2{font-size: 27;font-weight:lighter;font-family: arial;-webkit-margin-before:0em;text-align: left;margin-left:516px}
 #go_next {width:146px;font-size:18px;height:40px;background-color: #DBDBDB;  }
+#go_next:hover{cursor:pointer}

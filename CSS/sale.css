@@ -7,109 +7,65 @@
 	max-width:900px;
 	margin-left:20px;	
 	}
+.salesBlock{
+	width:90%;
+	height:500px;
+	border:1px solid grey;
+	margin-left:10%;
+}
+.history{
 
-.emtyBox{width:300px;height:62px;font-family: Geneva, Arial, Helvetica;font-size: 26;margin:50px auto;display:none}
-.emtyBox img{width:50px;height:50px;float:left}
-.emtyText{float:right;margin-top:14px}
-.stockBox	{
-	width:100%;
-	border-width:1px 1px 0 1px;
-	border-style: solid ;
-	border-color:#9e9e9e;
-	
+	width:290px;
+	height:65%;
+	font-size: 23;
+	margin-top:20px;
+	margin-left:50px;
+	border-width:0 1px 0 0;
+	border-style:solid;
+	border-color:grey;
 }
-.boxHead{
-	width:100%;
-	height:25px;	
+.history, .wToSale{position:relative;display:inline-block;font-family: Geneva, Arial, Helvetica;}
+.wToSale{
+	height:30%;
+	font-size: 20;
+	margin-left:10px;
 }
+.typesBlock{
+	width:100%;
+	border-width:1px 0 0 0 ;
+	border-style:solid;
+	border-color:grey;
+}
+.block1{width:25%;font-size: 17}
+.block1 p, .block2 p {margin-left:15px}
+.block1, .block2 {display:inline-block}
+.block2 ul li{list-style:none;}
+.block2 ul{padding:0}
+.typesBlock ul li {font-family: Geneva, Arial, Helvetica;font-size: 19;font-weight:bold;}
+.saleSpan{font-size: 19;font-weight:normal;margin-left:10px;}
 
 
-.sort{
-	position:absolute;
-	top:3px;
-	left:10px;
-	font-size:15px;
-}
-.boxElement, .boxHead {border-bottom:1px solid #9e9e9e;}	
-.boxElement{
-	position:relative;
-	width:100%;
-	height:80px;	
-}
-.imgSlot{
-	position:relative;
-	float:left;
-	width:85px;
-	height:100%;
-	border-right:1px solid #9e9e9e;
-}
-.imgSlot img{
-	height:71px;
-	width:71px;
-	margin:4px;
-}
-/* Блок Название+ аттрибуты */
-.name_price{
-	position:relative;
-	height:100%;
-	width:50%;	
-	max-width:500px;
-	float:left;	
-}
-.nameSlot{
-	padding:5px 0 0 15px;
-	font-size:17;
-	font-family: Geneva, Arial, Helvetica
-}
-.nameSlot a:hover, .nameSlot a:visited,.nameSlot a:active{text-decoration: none}
-.priceSlot{float:left;
-	margin:10px 0 0 20px;
-}
-#priceSlot{font-weight:bold;}
-.ostatok{font-family: Geneva, Arial, Helvetica;font-size: 19;
+
+
+
+
+
+
+/*Вид правого блока*/
+.rightBlock{
 	position:relative;
 	float:right;
-	width:43%;
-	margin-top:10px;
-	height:10px;
-}
-/* +- counter; Sum */
-.countElemnt{
-	position:absolute;
-	left:60%;
-	height:28px;
-	width:300px;
-	margin-top:25px;
-}
-.plus:hover, .minus:hover , .addToCart:hover{cursor:pointer}
-.plus{margin-right: -4px;border-right:0;width:28px;height:28px}
-.minus{margin-left: -4px;border-left:0;width:28px;height:28px}
-#counter{text-align: center;height:28px;}
-.addToCart{width:110px;height:28px;float:right}
-.sumElement{
-	position:absolute;
-	top:6px;
-	left:98px;
-}
-#sumElement{font-weight:bold;margin-left:1px;}
-/* +- кнопка удалить */
-.deleteElement{
-	position:absolute;
-	top:3px;
-	left:97%;
-}
-.deleteThis{
-	background-image: url(/arbel/IMG/x.png);
-	background-repeat:no-repeat;
-	background-position:center; 
-	background-size:5.2px;
-	width:15px;
-	height:15px;
-	border-radius:15px;
-	border:0.6px solid grey;
-}
-.deleteThis:hover{
-	background-color:#287FC1;
-	cursor:pointer;
-}
+	width:260px;
+	margin:30px 130px 0 0;}
+.corzina, .opt, .fav {position:absolute;font-family: Geneva, Arial, Helvetica;font-size: 23;z-index:1}
+.corzina a:hover, .opt a:hover, .fav a:hover {text-decoration:underline;font-size: 24;}
+.corzina a:visited, .opt a:visited, .fav a:visited, .corzina a, .opt a, .fav a{text-decoration:none;color:blue}
+.corzina{left:47px;top:12px;}
+.fav{left:47px;top:51px;}
+.sal{position:absolute;top:82px}
+.opt{top:138px;left:47px;}
+
+
+
+
 

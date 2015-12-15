@@ -47,10 +47,14 @@
             <p class="error" id="pass_text"></p>
         </div>
     </div>
-    <div class="cart_m"  ><a href="cart.php" >Корзина </a></div>
-    <div class="izbrannoe_m"><a href="favourite.php" >Избранное </a></div>
-    <div class="Opt_m"  >  <img src="IMG/options_1.png"></div>
-
+	<div class="rightBlock">
+	 <!-- Для незарегистрированных пользователей-->
+		<div class="corzina"><a href="cart.php" >Корзина</a></div>  
+	<!-- Для ЗАрегистрированных пользователей-->		
+		<div class="Fav"  ><a href="favourite.php" >Избранное </a></div>  
+		<div class="Sal"><a href="sale.php" >Скидки/История </a></div>  		
+		<div class="Opt"  >  <a href="options.php" ><img src="IMG/options_1.png"> </a></div>                                                  				
+	</div>
 </div>
 </body>
 <script type="text/javascript" src="js/header.js "></script>

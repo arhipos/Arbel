@@ -1,8 +1,4 @@
 .fon_opt_fav_cart{max-width:1350px;min-width:1180px;margin-left:auto;margin-right:auto;height:800px;}
-.cart_m, .opt_m, .izbrannoe_m{position:relative;width:200px;font-family: Geneva, Arial, Helvetica;font-size: 23}
-.cart_m{top:120px;left:862px;}
-.opt_m{top:190px;left:816px;}
-.izbrannoe_m{top:150px;left:862px}
 .optionsBlock{width:720px;height:500px;border-width: 1;border-style: solid;border-color: #adbcbc;position:absolute;margin-top:75px;margin-left:40px}
 .changeParol {height:500px;width:49.7%;float:left;}
 .PersonalContacts{height:500px;width:49.7%;float:right;}
@@ -19,3 +15,17 @@ H2{font-size: 27;font-weight:lighter;font-family: arial;-webkit-margin-before:0e
 h3{margin-top:50px;width:358px;font-size: 20;}
 input[type="radio"]{cursor: pointer;margin-right:8px;height: 13px;  }
 
+/*Вид правого блока*/
+.rightBlock{
+	position:relative;
+	float:right;
+	width:260px;
+	margin:30px 130px 0 0;}
+.corzina, .fav, .sal { position:absolute;font-family: Geneva, Arial, Helvetica;font-size: 23}
+.fav a:hover, .corzina a:hover, .sal a:hover {text-decoration:underline;font-size: 24;}
+.fav a, .fav a:visited, .corzina a, .corzina a:visited, .sal a, .sal a:visited{text-decoration:none;color:blue}
+.dopFunc{top:50px;width:200px;color: #626262;display:none }
+.corzina{left:47px;top:12px;}
+.fav{top:50px;left:47px;}
+.sal{top:88px;left:47px;}
+.opt{top:121px;position:absolute}

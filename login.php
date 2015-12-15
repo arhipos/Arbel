@@ -4,6 +4,9 @@
     <title>
         АРБЕЛ- канцелярия
     </title>
+	<meta http-equiv="Content-Type" content="text/html; Charset=utf-8"/>
+	<script src="JS/jquery-1.6.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="CSS/main.css"/>
     <link rel="stylesheet" type="text/css" href="CSS/login.css"/>
 
 <?php require("header.php") ?>
@@ -17,6 +20,7 @@
                 <input  name="pass" id="id_pass" type="password">
 
                 <p></p>
+				<a href="forgotPass.php">Забыли пароль?</a>
                 <input type="submit" id="go_next" value="Войти">
             </form>
             <p class="error" id="pass_text"></p>
