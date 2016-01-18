@@ -17,6 +17,7 @@
 </head>
 
 <?php require("header.php") ?>
+<div class="indexBody">
 <div class="slider_back">
 <div class="slider_body">
 	<div class="slider_body_wrapper">
@@ -79,6 +80,28 @@
 </div>
 </div>
 
+	<H2>Самое популярное</H2>
+		<div class="firstBox">
+			<div class="imgT"><img src="IMG/index_1.jpg" /></div>
+			<div class="nameT">Navigator A4 </div>
+			<div class="priceT"><span class="redT">58.-</span> руб.</div>
+		</div>	
+		
+		<div class="secondBox">
+			<div class="imgT"><img src="IMG/index_2.jpg" /></div>
+			<div>
+				<div class="nameT">Navigator A4 </div>
+				<div class="priceT"><span class="redT">70.-</span> руб. </div>
+			</div>
+		</div>
+		<div class="thirdBox">
+			<div class="imgT"><img src="IMG/index_3.jpg" /></div>
+			<div>
+				<div class="nameT">Navigator A4 </div>
+				<div class="priceT"><span class="redT">64.-</span> руб. </div>
+			</div>
+		</div>
+</div>
 
 
 </body>
