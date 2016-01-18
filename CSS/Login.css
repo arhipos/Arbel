@@ -10,3 +10,4 @@
 .reg_info, .login_form{border-style: solid ;border-color:darkgray}
 form a, form a:visited{text-decoration:none;color:black}
 form a:hover{text-decoration:underline}
+#error{color:red}

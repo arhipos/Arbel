@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="CSS/jquery.fancybox.css" type="text/css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="CSS/main.css"/>
     <link rel="stylesheet" type="text/css" href="CSS/cart.css"/>
+	<link rel="stylesheet" type="text/css" href="CSS/rightBlock.css"/>
 </head>
 
 
@@ -97,7 +98,15 @@
 	</div>
 	<div class="rightBlock">
 	 <!-- Для незарегистрированных пользователей-->
-		<div class="corzina"><img src="IMG/cart_1.png"></div>
+		<div class="blockChose">
+		<a href="cart.php" >
+			<div  id="triangleBigTopCut"><div  id="triangleSmallTopCut"></div></div>
+			<div  id="triangleBigBotCut"><div  id="triangleSmallBotCut"></div></div>		
+			<div  id="triangleBigTop"><div  id="triangleSmallTop"></div></div>
+			<div  id="triangleBigBot"><div  id="triangleSmallBot"></div></div>
+			<div  id="rectangle"><span class="rectText">Корзина</span></div>
+		</a>
+		</div>
 		<div class="dopFunc"> Допонительные функции доступны <a href="registration.php">зарегистрированым</a> пользователям</div>    
 	<!-- Для ЗАрегистрированных пользователей-->		
 		<div class="Fav"  ><a href="favourite.php" >Избранное </a></div>  
@@ -109,6 +118,8 @@
 </body>
 
 <script type="text/javascript">
+$(".blockChose").mouseover(function(){$("#triangleBigTopCut, #triangleBigBotCut").css("border-left", "19px solid #9E9E9E")});
+$(".blockChose").mouseout(function(){$("#triangleBigTopCut,#triangleBigBotCut").css("border-left", "19px solid white")});
 	 if ($(".stockBox").css("height") < "140px" ) {
 		 $(".stockBox").css("visibility", "hidden");
 		 $(".emtyBox").fadeIn()
@@ -123,7 +134,9 @@
 			 }
 		 });	
 	};
-	
+	window.onresize=function(){
+	if ($(window).width()<=1300) {$('#cart1').css("display", "none");$('.cart2').show();}
+	};
 
 </script>
 

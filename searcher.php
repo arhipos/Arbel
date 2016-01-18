@@ -50,7 +50,7 @@
 				Остаток:  под заказ
 				</div>
 			</div>
-			<div class="fav_cart">
+			<div class="fav_cart" id="fav_cart">
 				<button class="addToFavourite" >
 					<img  class="imgStar_1" src="IMG/star_1.png"  > <img  class="imgStar_2" src="IMG/star_2.png"  >   В избранное
 				</button>

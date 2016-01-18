@@ -1,4 +1,4 @@
-.cartBody{max-width:1350px;min-width:1180px;margin-left:auto;margin-right:auto;height:800px;}
+.cartBody{max-width:1366px;min-width:1024px;margin-left:auto;margin-right:auto;height:800px;}
 /*stockBox*/
 
 
@@ -20,6 +20,7 @@
 	border-color:#9e9e9e;
 	
 }
+.cart2 {display:none}
 .boxHead{
 	width:100%;
 	height:25px;	
@@ -139,16 +140,12 @@
 	background-color:#287FC1;
 	cursor:pointer;
 }
-/*Вид правого блока*/
-.rightBlock{
-	position:relative;
-	float:right;
-	width:260px;
-	margin:30px 130px 0 0;}
-.dopFunc, .fav, .opt, .sal { position:absolute;font-family: Geneva, Arial, Helvetica;font-size: 23}
-.fav a:hover, .opt a:hover, .sal a:hover {text-decoration:underline;font-size: 24;}
-.fav a, .fav a:visited, .opt a, .opt a:visited, .sal a, .sal a:visited{text-decoration:none;color:blue}
-.dopFunc{top:50px;width:200px;color: #626262;display:none }
-.fav{top:58px;left:47px;}
-.sal{top:100px;left:47px;}
-.opt{top:138px;left:47px;}
+/*	настрйоки правого блока*/
+.fav{top:50px;left:40px;}
+.sal{top:92px;left:40px;}
+.opt{top:134px;left:40px;}
+.blockChose{
+	position:absolute;
+	top:0px;
+	left:0;
+}

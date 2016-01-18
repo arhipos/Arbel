@@ -1,0 +1,103 @@
+/*Вид правого блока*/
+@media screen and (max-width: 1220px) {
+   .favBody .rightBlock {
+      margin-right:50px;
+    }
+}
+.rightBlock{
+	position:relative;
+	float:right;
+	width:220px;
+	margin:30px 100px 0 0;}
+
+/*Правый блок- выбранный эдемент*/
+
+.rectText{	
+	font-family: Geneva, Arial, Helvetica;
+	font-size: 23;
+	margin-left:20px;
+}
+#triangleBigTop {
+	position:absolute;
+	width: 0;
+	height: 0;
+	border-bottom: 20px solid #9E9E9E; 
+	border-left: 20px solid transparent;
+}
+#triangleBigTopCut {
+	position:absolute;
+	width: 0;
+	height: 0;
+	border-bottom: 19px solid transparent; 
+	border-left: 19px solid white;
+	z-index:1;
+}
+#triangleBigBot {
+	top:20px;
+	position:absolute;
+	width: 0;
+	height: 0;
+	border-top: 20px solid #9E9E9E; 
+	border-left: 20px solid transparent;
+}
+#triangleBigBotCut {
+	position:absolute;
+	top:21px;
+	width: 0;
+	height: 0;
+	border-top: 19px solid transparent; 
+	border-left: 19px solid white;
+	z-index:1;
+}
+#triangleSmallTop {
+	position:absolute;
+	top:2px;
+	left:-18px;
+	width: 0;
+	height: 0;
+	border-bottom: 18px solid white; 
+	border-left: 18px solid transparent;
+}
+#triangleSmallTopCut {
+	position:absolute;
+	left:-19px;
+	width: 0;
+	height: 0;
+	border-bottom: 14px solid transparent; 
+	border-left: 14px solid white;
+	z-index:3;
+}
+#triangleSmallBot {
+	position:absolute;
+	top:-20px;
+	left:-18px;
+	width: 0;
+	height: 0;
+	border-top: 18px solid white; 
+	border-left: 18px solid transparent;
+}
+#triangleSmallBotCut {
+	position:absolute;
+	top:-14px;
+	left:-19px;
+	width: 0;
+	height: 0;
+	border-bottom: 14px solid white; 
+	border-right: 14px solid transparent;
+	z-index:3;
+}
+#rectangle{
+	color:blue;
+	position:absolute;	
+	left:20px;
+	width: 200px;
+	height: 31px;
+	padding-top:5px;
+	border-width:2px 2px 2px 0;
+	border-style:solid;
+	border-color:#9E9E9E;
+}
+.dopFunc, .fav, .corzina, .opt, .sal { position:absolute;font-family: Geneva, Arial, Helvetica;font-size: 23}
+.fav a:hover, .corzina a:hover, .opt a:hover, .sal a:hover {text-decoration:underline;font-size: 24;}
+.fav a, .fav a:visited, .corzina a, .corzina a:visited, .opt a, .opt a:visited, .sal a, .sal a:visited{text-decoration:none;color:blue}
+.dopFunc{top:50px;width:200px;color: #626262;display:none }

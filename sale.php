@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="CSS/jquery.fancybox.css" type="text/css" media="screen" />
 <link rel="stylesheet" type="text/css" href="CSS/main.css"/>
 <link rel="stylesheet" type="text/css" href="CSS/sale.css"/>
-
+<link rel="stylesheet" type="text/css" href="CSS/rightBlock.css"/>
 </head>
 <?php require("header.php") ?>
 
@@ -51,15 +51,24 @@
 	</div>
 	<div class="rightBlock">
 		<div class="corzina"> <a href="cart.php" >Корзина </a></div>
-		<div class="Fav"><a href="favourite.php" >Избранное </a></div>                                           
-		<div class="Opt"><a href="options.php" >Настройки </a></div>       															
-		<div class="Sal"><a href="sale.php" ><img src="IMG/sale_1.png"> </a></div>  																
+		<div class="Fav"><a href="favourite.php" >Избранное </a></div> 
+		<div class="blockChose">
+		<a href="sale.php" >
+			<div  id="triangleBigTopCut"><div  id="triangleSmallTopCut"></div></div>
+			<div  id="triangleBigBotCut"><div  id="triangleSmallBotCut"></div></div>		
+			<div  id="triangleBigTop"><div  id="triangleSmallTop"></div></div>
+			<div  id="triangleBigBot"><div  id="triangleSmallBot"></div></div>
+			<div  id="rectangle"><span class="rectText">Скидки/История</span></div>
+		</a>
+		</div>	
+		<div class="Opt"><a href="options.php" >Настройки </a></div>       																															
 	</div>
 </div>
 </body>
 
 <script type="text/javascript">
-
+$(".blockChose").mouseover(function(){$("#triangleBigTopCut, #triangleBigBotCut").css("border-left", "19px solid #9E9E9E")});
+$(".blockChose").mouseout(function(){$("#triangleBigTopCut,#triangleBigBotCut").css("border-left", "19px solid white")});
 </script>
 
 </html>

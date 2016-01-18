@@ -1,9 +1,111 @@
-.registration{background-position:center;background-color: rgba(248, 258, 248, 0.6);max-width:1350px;min-width:1180px;margin-left:auto;margin-right:auto;  background-image: url('C:/Users/Vlad/Desktop/Arbel/img/logoFon.png');background-repeat:no-repeat;}
-.reg_help{position:absolute;color: #6a6a6a;margin:90px 0 0 90px;}
- #id_email, #id_pass, #id_pass_confirm, #kaptha, #id_inn, #id_contact, #id_telephone, #id_adress  {margin-bottom:14px;font-size:18px;border-radius:1px;height:31px;width:320px;border:1px solid #d2d2d2}
+.registration{
+	background-position:center;
+	background-color: rgba(248, 258, 248, 0.6);
+	max-width:1350px;
+	min-width:1180px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image: url('C:/Users/Vlad/Desktop/Arbel/img/logoFon.png');
+	background-repeat:no-repeat;
+	}
+ #id_email, #id_pass, #id_pass_confirm, #id_inn, #id_contact, #id_telephone, #id_adress  {
+	margin-bottom:14px;	 
+	font-size:18px;
+	border-radius:1px;
+	height:31px;
+	width:320px;
+	border:1px solid #d2d2d2;
+	}
 #id_pass, #id_pass_confirm{-webkit-text-security: square;}
-#form_reg p {font-size: 13;font-family:arial;font-weight: bold;margin-bottom: 3px ;text-align: left;margin-left:516px}
-.reg_form{text-align:center;}
-.reg_form H2{font-size: 27;font-weight:lighter;font-family: arial;-webkit-margin-before:0em;text-align: left;margin-left:516px}
+#form_reg p {
+	font-size: 13;
+	height:15px;
+	font-family:arial;
+	font-weight: bold;
+	margin-bottom: 3px;
+	text-align: left;
+	margin-left:100px;
+	}
+.reg_form{width:520px;float:left;text-align:center;border:1px solid black;margin-left:18%}
+.zagl{
+	position:relative;
+	height:32px;
+	font-size: 27;
+	font-weight:lighter;
+	font-family: arial;
+	margin-top:12px
+	}
 #go_next {width:146px;font-size:18px;height:40px;background-color: #DBDBDB;  }
 #go_next:hover{cursor:pointer}
+.error{
+	float:left;
+	margin-left:10px;
+	height:710px;
+	width:250px;
+	font-size: 14;
+	font-family:arial;
+	font-weight: bold;
+	color:red;
+	}
+#rhelp{
+	width:100%;
+	height:17px;
+	margin-top:13px;
+	color:#A9A1A1;
+}
+.zv{color:black;font-size: 18;}
+.zv1{color:red;height:17px;font-size: 16;}
+#emailError{
+	margin-top:52px;
+	width:100%;
+	height:17px;
+}
+#passError, #pass2Error, #innError, #telError, #adrError, #capError, #contError{
+	margin-top:59px;
+	width:100%;
+	height:17px;
+	}
+.cap{position:relative}
+#code{
+	margin-left:-108px;
+	font-size:18px;
+	border-radius:1px;
+	height:31px;
+	width:210px;
+	border:1px solid #d2d2d2;	
+}
+
+.refImg{
+	position:absolute;
+	left:310px;
+	top:2px;
+	width:190px;
+}
+#captchaImg	{
+	float:left;
+	margin-top:-8px;
+	height:41px;
+}
+#refresh{
+	margin-left:2px;
+	width:27px;
+	cursor:pointer;
+	float:left;
+}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

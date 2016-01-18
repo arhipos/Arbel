@@ -1,4 +1,4 @@
-.favBody{max-width:1350px;min-width:1180px;margin-left:auto;margin-right:auto;height:800px;}
+.favBody{max-width:1366px;min-width:1024px;margin-left:auto;margin-right:auto;height:800px;}
 /*Вид левого блока*/
 .leftBlock{	position:relative;
 	float:left;
@@ -52,20 +52,14 @@
 
 
 /*Вид правого блока*/
-.rightBlock{
-	position:relative;
-	float:right;
-	width:260px;
-	margin:30px 130px 0 0;}
-.corzina, .opt, .fav {position:absolute;font-family: Geneva, Arial, Helvetica;font-size: 23;z-index:1}
-.corzina a:hover, .opt a:hover, .fav a:hover {text-decoration:underline;font-size: 24;}
-.corzina a:visited, .opt a:visited, .fav a:visited, .corzina a, .opt a, .fav a{text-decoration:none;color:blue}
-.corzina{left:47px;top:12px;}
-.fav{left:47px;top:51px;}
-.sal{position:absolute;top:82px}
-.opt{top:138px;left:47px;}
-
-
+.corzina{left:40px;top:6px;}
+.fav{left:40px;top:48px;}
+.opt{top:134px;left:40px;}
+.blockChose{
+	position:absolute;
+	top:84px;
+	left:0;
+}
 
 
 

@@ -8,7 +8,7 @@
 <script src="JS/jquery-1.6.1.min.js"></script>
 <link rel="stylesheet" type="text/css" href="CSS/main.css"/>
 <link rel="stylesheet" type="text/css" href="CSS/options.css"/>
-
+<link rel="stylesheet" type="text/css" href="CSS/rightBlock.css"/>
 
 	
 	<?php require("header.php") ?>
@@ -53,11 +53,21 @@
 	<!-- Для ЗАрегистрированных пользователей-->		
 		<div class="Fav"  ><a href="favourite.php" >Избранное </a></div>  
 		<div class="Sal"><a href="sale.php" >Скидки/История </a></div>  		
-		<div class="Opt"  >  <a href="options.php" ><img src="IMG/options_1.png"> </a></div>                                                  				
+		<div class="blockChose">
+		<a href="options.php" >
+			<div  id="triangleBigTopCut"><div  id="triangleSmallTopCut"></div></div>
+			<div  id="triangleBigBotCut"><div  id="triangleSmallBotCut"></div></div>		
+			<div  id="triangleBigTop"><div  id="triangleSmallTop"></div></div>
+			<div  id="triangleBigBot"><div  id="triangleSmallBot"></div></div>
+			<div  id="rectangle"><span class="rectText">Настройки</span></div>
+		</a>
+		</div>                                                 				
 	</div>
 </div>
 </body>
 <script type="text/javascript" src="js/header.js "></script>
-
-
+<script>
+$(".blockChose").mouseover(function(){$("#triangleBigTopCut, #triangleBigBotCut").css("border-left", "19px solid #9E9E9E")});
+$(".blockChose").mouseout(function(){$("#triangleBigTopCut,#triangleBigBotCut").css("border-left", "19px solid white")});
+</script>
 </html>
