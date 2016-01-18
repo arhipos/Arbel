@@ -140,16 +140,13 @@
 				</div>			
 				<div class="menuDrop drop8">
 					<div id="subMenu Top_8" class="subMenu Top_8">
-						<a class="link SubitemTop_1" href="/.../">  <img src="IMG/headerIcons/6_1.png" /> <p> Чистящие и моющие средства</p></a>
-						<a  href="/.../"><img src="IMG/headerIcons/6_2.png" /><p>Уборочный инвентарь</p></a>
-						<a  href="/.../"><img src="IMG/headerIcons/6_3.png" /><p>Одноразовая посуда</p></a>
-						<a href="/.../"><img src="IMG/headerIcons/6_4.png" /><p>Упаковочные материалы</p></a>
-						<a href="/.../"><img src="IMG/headerIcons/6_5.png" /><p>Мыло и стирательные порошки</p></a>
-						<a href="/.../"><img src="IMG/headerIcons/6_6.png" /><p>Корзины для мусора</p></a>
+						<a class="link SubitemTop_7_1" href="/.../">  <img src="IMG/headerIcons/7_1.png" /> <p> Элементы питания</p></a>
+						<a  href="/.../"><img src="IMG/headerIcons/7_2.png" /><p>Калькуляторы</p></a>
 					</div>
 					<div id="subMenu Bot_8" class="subMenu Bot_8">
-						<a class="link SubitemBot_1" href="/.../"><img src="IMG/headerIcons/6_7.png" /><p>Освежители воздуха,гигиенические блоки</p></a>
-						<a href="/.../"><img src="IMG/headerIcons/6_8.png" /><p>Туалетная бумага, салфетки, полотенца</p></a>
+						<a class="link SubitemBot_7_3" href="/.../"><img src="IMG/headerIcons/7_3.png" /><p>Светильники</p></a>
+						<a href="/.../"><img src="IMG/headerIcons/7_4.png" /><p>Сетевые фильтры</p></a>
+						<a  href="/.../"><img src="IMG/headerIcons/7_5.png" /><p>Уничтожители бумаги</p></a>
 					</div>
 				</div>	
 </div>				
