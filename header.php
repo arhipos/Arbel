@@ -10,10 +10,14 @@
 			<div class="CartStatus">Корзина пуста</div>
 		</div>
 		<div class="LoginLink" >
-			<span class="personal" id="link_login"><a href="login.php" rel="nofollow">Вход</a></span> &nbsp&nbsp <a href="registration.php" rel="nofollow">Регистрация </a>
+			<a href="login.php" rel="nofollow" class="loginA">Вход</a> <a href="registration.php" class="loginA" rel="nofollow">Регистрация </a>
+			<!-- Вид для зарегистрированного пользователя-->
+			<!--	<div class="persName">Василий Корочкин</div>
+				<a href="" rel="nofollow" class="loginA exit">Выход</a> 
+				<a href="" rel="nofollow" class="loginA feedBack">Личный кабинет</a> -->
 		</div>
 		<div class="TopCenter">
-			<div class="Searcher" >		<input id="x" class="x"  value="Найти"  name="submit" type="submit" onClick='location.href="searcher.php"' ><input    name="search"></div>
+			<div class="Searcher" >		<input    name="search"><input id="x" class="x"  value="Найти"  name="submit" type="submit" onClick='location.href="searcher.php"' ></div>
 			<div class="BottomCenter" id="s1">
 				<div class="aboutDeliv"> <a href="/abut/">О нас</a> <a href="/delivery/" >Доставка и оплата </a></div>
 				<div class="pic1"><img src="IMG/birka.png"/></div>

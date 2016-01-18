@@ -1,12 +1,12 @@
-.login {max-width:1350px;min-width:1180px;margin-left:auto;margin-right:auto;text-align: center }
+.login {max-width:1366px;;min-width:1024px;margin-left:auto;margin-right:auto;text-align: center }
 #id_email, #id_pass  {font-size:18px;border-radius:1px;height:31px;width:320px;border:1px solid #d2d2d2;}
 #id_pass{-webkit-text-security: square;}
 #form_reg p {font-size: 13;font-family:arial;font-weight: bold;text-align: center;}
-.login_form{width:500px;height:500px;border-width:1px; float:left;margin-left:173px;}
+.login_form{width:36%;height:500px;border-width:1px; float:left;margin-left:13.85%;}
 .login_form H2{font-size: 27;font-weight:lighter;font-family: arial;-webkit-margin-before:0em;text-align: left;text-align: center}
 #go_next {width:146px;font-size:18px;height:40px;background-color: #DBDBDB;margin-left:61px }
 #go_next:hover{cursor:pointer}
-.reg_info{width:500px;height:500px; border-width: 1px 1px 1px 0; float:right;margin-right:174px;}
+.reg_info{width:36%;height:500px; border-width: 1px 1px 1px 0; float:right;margin-right:13.86%;}
 .reg_info, .login_form{border-style: solid ;border-color:darkgray}
 form a, form a:visited{text-decoration:none;color:black}
 form a:hover{text-decoration:underline}

@@ -69,7 +69,9 @@
 
 	.logo, .searcher, .cart, .loginLink{display:block;position:relative;}
 	.logo{float:left}
-
+	
+	.cart{width:120px;}
+	.cart img{margin-left:16.5px;}
 	
 	.topCenter{margin-top:3px;margin-right:16px;width:35%;}
 	.topCenter, .cart, .loginLink{float:right;}
@@ -80,17 +82,19 @@
 	.BottomCenter div A:link, .BottomCenter div A:visited, .BottomCenter div A:active, .BottomCenter div A:hover{color:#968E8E}  
 	.BottomCenter div A:hover{text-decoration:none;}	
 	.searcher{width:100%}
-	.searcher input {height:33px;font-size:16px;border:2px grey solid;position:relative;float:right;margin-top:11px;}
+	.searcher input {height:33px;font-size:16px;border:2px grey solid;float:left;margin-top:11px;}
 	input[name="search"] {border-right:none;width:70%}
 	input[name="submit"] {width:90px;border-radius:0 3px 13px 0;background-color:#034FA3;color:white; outline: none;}
 	input[name="submit"]:hover {cursor:pointer;border-color:#5b616e;color:#e3d2b1}
 
-	.loginLink{margin:10px 30px 0 60px ;width:145px;color:#034FA3;text-decoration:none; }
-	.logInLink A:link, .logInLink A:visited, .logInLink A:active, .logInLink A:hover {color:#034FA3;text-decoration:none;}
-	.logInLink A:hover {text-decoration:none;}
-	.personal {text-decoration:none;font-weight: normal}
-	.personal:hover{cursor:pointer;text-decoration:none;}
-
+	.loginLink{margin:10px 15px 0 60px ;width:210px;text-decoration:none;}
+	.loginA:link, .loginA:visited, .loginA:active, .loginA:hover {color:#034FA3;text-decoration:none;}
+	.loginA {margin-left:5px;margin-right:15px;text-decoration:none;font-weight: normal;color:#034FA3;}
+	.loginA:hover{cursor:pointer;text-decoration:underline}
+	.persName{width:130px;height:17px;overflow:hidden;text-align:right;}
+	.feedBack{color:#968E8E}
+	.feedBack:link, .feedBack:visited, .feedBack:active, .feedBack:hover {color:#968E8E}
+	.exit{float:right;margin-top:-17px;}
 	.cartStatus{text-align:center;font-size:16;margin-top:4px;}
 	.cartStatus a, .cartStatus a:link, .cartStatus a:visited, .cartStatus a:active, .cartStatus a:hover{text-decoration: none; color:black}
 	.greyGrad{background: linear-gradient(to bottom, #eaeaea, #fff);height:60px;margin-top:5px} /* 60px для всех 40-50 для лока регистрации*/
