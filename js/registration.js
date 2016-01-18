@@ -240,7 +240,11 @@ $(document).ready(function() {
 });  
 	
 $(document).ready(function() { 
-	
+// refresh captcha
+	$('img#refresh').click(function() {  change_captcha();  });
+	function change_captcha(){
+		document.getElementById('captchaImg').src="get_captcha.php?rnd=" + Math.random();
+	}	
  $('#go_next').click(function() {  
 	emailCheck();
 	passCheck();
@@ -249,10 +253,6 @@ $(document).ready(function() {
 	contCheck();
 	telCheck();	
 	capchaCheck();
-// refresh captcha
-	$('img#refresh').click(function() {  change_captcha();  });
-	function change_captcha(){
-		$('#captchaImg').src="get_captcha.php?rnd=" + Math.random();
-	}
+
  });
 });
