@@ -10,18 +10,19 @@
 <script type="text/javascript" src="JS/jquery.ui-slider.js"></script>
  <script type="text/javascript" src="JS/jquery.fancybox.js"></script>
   <script type="text/javascript" src="JS/jquery-ui-1.8.16.custom.min.js"></script>
-    <script type="text/javascript" src="JS/counter.js"></script>
+
 
     <link rel="stylesheet" href="CSS/jquery.fancybox.css" type="text/css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="CSS/main.css"/>
     <link rel="stylesheet" type="text/css" href="CSS/cart.css"/>
+	<link rel="stylesheet" type="text/css" href="CSS/table.css"/>
 	<link rel="stylesheet" type="text/css" href="CSS/rightBlock.css"/>
 </head>
 
 
 
 <?php require("header.php"); ?>
-<div class="cartBody">
+<div class="CFBody">
 	<div class="leftBlock">
 		<div class="emtyBox">
 			<img src="IMG/emtyCart.jpg"><div class="emtyText">Ваша корзина пуста</div>
@@ -36,26 +37,26 @@
 						<img src="IMG/examplePen.jpg"/>
 					</a>
 				</div>
-				<div class="name_price">
+				<div class="name_price" >
 					<div class="nameSlot">
 						<a href ="...карточка товара">Pilot Grip синий гелевый </a>
 					</div>
-					<div class="priceSlot" > 
-						Цена<span id="priceSlot"> 34,54</span> руб. 
+					<div class="priceEd" > 
+						Цена<span class="priceSlot"> 34,54</span> руб. 
 					</div>
 					<div class="ostatok">
 					Остаток:  под заказ
 					</div>
 				</div>			
-				<div class="countElemnt">
-						<input class="plus" type="button" value="+" onclick="inc()"/>
-						<input  id="counter" type="text" size="1" value="1" onmouseout="$('#summaSlot').val($('#counter').val()*34)"/>
-						<input class="minus" type="button" value="-" onclick="dec()" /> 							
-					<div class="sumElement">= <span id="sumElement">34,54</span> руб
+				<div class="countElement">
+						<input class="plus"  type="button" value="+" />
+						<input  class="counter" type="text" size="1" value="1" />
+						<input class="minus" type="button" value="-"  /> 							
+					<div class="sum">= <span  id="sumElement" ></span> руб
 					</div>
 				</div>
 				<div class="deleteElement">
-					<input class="deleteThis" id="deleter" type="button"  onclick="deleteElem()"/>
+					<input class="deleteThis" type="button"  />
 				</div>
 			</div>
 			<div class="boxElement" id="element2">
@@ -68,27 +69,55 @@
 					<div class="nameSlot">
 						<a href ="...карточка товара">Калькулятор Citizen </a>
 					</div>
-					<div class="priceSlot" > 
-						Цена<span id="priceSlot"> 728</span> руб. 
+					<div class="priceEd" > 
+						Цена<span  class="priceSlot"> 728</span> руб. 
 					</div>
 					<div class="ostatok">
 					Остаток:  в наличии 
 					</div>
 				</div>			
-				<div class="countElemnt">
-					<input class="plus" type="button" value="+" onclick="inc()"/>
-					<input  id="counter" type="text" size="1" value="1" onmouseout="$('#summaSlot').val($('#counter').val()*34)"/>
-					<input class="minus" type="button" value="-" onclick="dec()" /> 							
-				<div class="sumElement">= <span id="sumElement">728</span> руб
+				<div class="countElement">
+					<input class="plus"  type="button" value="+" />
+					<input  class="counter"  type="text" size="1" value="1"/>
+					<input class="minus" type="button" value="-"  /> 							
+				<div class="sum">= <span id="sumElement"  ></span> руб
 				</div>
 				</div>
-				<div class="deleteElement">
-					<input class="deleteThis" type="button"  onclick="deleteElem2()"/>
+				<div class="deleteElement" >
+					<input class="deleteThis" type="button" />
 				</div>
 			</div>
+			<div class="boxElement" id="element3">
+				<div class="imgSlot">	
+					<a class="fancybox" href="IMG/examplePen.jpg" title="Увеличить">
+						<img src="IMG/examplePen.jpg"/>
+					</a>
+				</div>
+				<div class="name_price">
+					<div class="nameSlot">
+						<a href ="...карточка товара">Pilot Grip синий гелевый </a>
+					</div>
+					<div class="priceEd" > 
+						Цена<span class="priceSlot">32,12</span> руб. 
+					</div>
+					<div class="ostatok">
+					Остаток:  под заказ
+					</div>
+				</div>			
+				<div class="countElement">
+						<input class="plus" type="button" value="+" />
+						<input  class="counter" type="text" size="1" value="1" >
+						<input class="minus" type="button" value="-"  /> 							
+					<div class="sum">= <span id="sumElement"  ></span> руб
+					</div>
+				</div>
+				<div class="deleteElement">
+					<input class="deleteThis"  type="button" />
+				</div>
+			</div>			
 			<div class="boxFooter">
 				<div class="itog">
-					Итого: <span class="itogNum">2322,32</span> руб.
+					Итого: <span class="itogNum"></span> руб.
 				</div>
 			</div>
 		</div>
@@ -116,27 +145,24 @@
 </div>
 
 </body>
-
+<script type="text/javascript" src="JS/counter.js"></script>
 <script type="text/javascript">
+
 $(".blockChose").mouseover(function(){$("#triangleBigTopCut, #triangleBigBotCut").css("border-left", "19px solid #9E9E9E")});
 $(".blockChose").mouseout(function(){$("#triangleBigTopCut,#triangleBigBotCut").css("border-left", "19px solid white")});
-	 if ($(".stockBox").css("height") < "140px" ) {
+if ($(".stockBox").css("height") < "140px" ) {
 		 $(".stockBox").css("visibility", "hidden");
 		 $(".emtyBox").fadeIn()
 		 };
-	function deleteElem(){
-		$("#element1").animate({height:"0",opacity:"0"}, {duration: 500, specialEasing: { height: 'linear'}})};
-	function deleteElem2(){$.when(
-		$("#element2").animate({height:"0",opacity:"0"}, {duration: 500, specialEasing: { height: 'linear'}})).then(
+$('.deleteThis').click(function(){
+	$(this).parents().eq(1).find('.counter').val(0);
+	summa();
+	$.when($(this).parents().eq(1).animate({height:"0",opacity:"0"}, {duration: 500, specialEasing: { height: 'linear'}})).then(
 		function(){if ($(".stockBox").css("height") < "140px" ) {
-				 $(".stockBox, .submitCartButton").css("display", "none");
-				 $(".emtyBox").fadeIn()
-			 }
-		 });	
-	};
-	window.onresize=function(){
-	if ($(window).width()<=1300) {$('#cart1').css("display", "none");$('.cart2').show();}
-	};
+				$(".stockBox, .submitCartButton").css("display", "none");
+				$(".emtyBox").fadeIn();
+				}
+		 });});
 
 </script>
 

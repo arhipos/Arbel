@@ -1,6 +1,6 @@
 /*Вид правого блока*/
 @media screen and (max-width: 1220px) {
-   .favBody .rightBlock, .cartBody .rightBlock, .fon_opt_fav_cart .rightBlock{
+   .CFBody .rightBlock, .fon_opt_fav_cart .rightBlock{
       margin-right:50px;
     }
 }

@@ -5,7 +5,7 @@
         АРБЕЛ- канцелярия
     </title>
 	<meta http-equiv="Content-Type" content="text/html; Charset=utf-8"/>
-	<script src="JS/jquery-1.6.1.min.js"></script>
+	<script src="JS/jquery-2.1.3.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="CSS/main.css"/>
     <link rel="stylesheet" type="text/css" href="CSS/login.css"/>
 

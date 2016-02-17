@@ -94,6 +94,9 @@
 	.persName{width:130px;height:17px;overflow:hidden;text-align:right;}
 	.feedBack{color:#968E8E}
 	.feedBack:link, .feedBack:visited, .feedBack:active, .feedBack:hover {color:#968E8E}
+	.LK{width:150px;float:left;}
+	.arrow{width:20px;hight:20px;border:1px solid red;float:left}
+	.arrow img{width:100%}
 	.exit{float:right;margin-top:-17px;}
 	.cartStatus{text-align:center;font-size:16;margin-top:4px;}
 	.cartStatus a, .cartStatus a:link, .cartStatus a:visited, .cartStatus a:active, .cartStatus a:hover{text-decoration: none; color:black}

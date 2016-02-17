@@ -5,11 +5,11 @@
         АРБЕЛ - канцелярия
     </title>
 <meta http-equiv="Content-Type" content="text/html; Charset=utf-8"/>
-<script src="JS/jquery-1.6.1.min.js"></script>
+<script src="JS/jquery-2.1.3.min.js"></script>
 <link rel="stylesheet" type="text/css" href="CSS/main.css"/>
 <link rel="stylesheet" type="text/css" href="CSS/options.css"/>
 <link rel="stylesheet" type="text/css" href="CSS/rightBlock.css"/>
-
+</head>
 	
 	<?php require("header.php") ?>
 <div class="fon_opt_fav_cart">
@@ -66,6 +66,7 @@
 </div>
 </body>
 <script type="text/javascript" src="js/header.js "></script>
+<script type="text/javascript" src="js/options.js "></script>
 <script>
 $(".blockChose").mouseover(function(){$("#triangleBigTopCut, #triangleBigBotCut").css("border-left", "19px solid #9E9E9E")});
 $(".blockChose").mouseout(function(){$("#triangleBigTopCut,#triangleBigBotCut").css("border-left", "19px solid white")});
