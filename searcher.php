@@ -67,7 +67,7 @@
 					<button class="addToFavourite" >
 						<img  class="imgStar_1" src="IMG/star_1.png"  > <img  class="imgStar_2" src="IMG/star_2.png"  >   В избранное
 					</button>
-					<img  class="favStar_2" src="IMG/star_2.png"  ><img  class="favStar_3" src="IMG/star_3.png"  >
+					<img  class="favStar" src="IMG/star_2.png"  >
 				</div>	
 				<div class="sum">Итого <span id="sumElement"> </span> руб
 				</div>
@@ -109,7 +109,7 @@
 					<button class="addToFavourite" >
 						<img  class="imgStar_1" src="IMG/star_1.png"  > <img  class="imgStar_2" src="IMG/star_2.png"  >   В избранное
 					</button>
-					<img  class="favStar_2" src="IMG/star_2.png"  ><img  class="favStar_3" src="IMG/star_3.png"  >
+					<img  class="favStar" src="IMG/star_2.png"  >
 				</div>	
 				<div class="sum">Итого <span id="sumElement"> </span> руб
 				</div>
@@ -149,7 +149,7 @@
 					<button class="addToFavourite" >
 						<img  class="imgStar_1" src="IMG/star_1.png"  > <img  class="imgStar_2" src="IMG/star_2.png"  >   В избранное
 					</button>
-					<img  class="favStar_2" src="IMG/star_2.png"  ><img  class="favStar_3" src="IMG/star_3.png"  >
+					<img  class="favStar" src="IMG/star_2.png"  >
 				</div>	
 				<div class="sum">Итого <span id="sumElement"> </span> руб
 				</div>
@@ -192,7 +192,7 @@
 					<button class="addToFavourite" >
 						<img  class="imgStar_1" src="IMG/star_1.png"  > <img  class="imgStar_2" src="IMG/star_2.png"  >   В избранное
 					</button>
-					<img  class="favStar_2" src="IMG/star_2.png"  ><img  class="favStar_3" src="IMG/star_3.png"  >
+					<img  class="favStar" src="IMG/star_2.png"  >
 				</div>	
 				<div class="sum">Итого <span id="sumElement"> </span> руб
 				</div>
@@ -235,7 +235,7 @@
 					<button class="addToFavourite" >
 						<img  class="imgStar_1" src="IMG/star_1.png"  > <img  class="imgStar_2" src="IMG/star_2.png"  >   В избранное
 					</button>
-					<img  class="favStar_2" src="IMG/star_2.png"  ><img  class="favStar_3" src="IMG/star_3.png"  >
+					<img  class="favStar" src="IMG/star_2.png"  >
 				</div>	
 				<div class="sum">Итого <span id="sumElement"> </span> руб
 				</div>
