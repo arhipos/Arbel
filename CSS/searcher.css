@@ -155,9 +155,7 @@
 	}
 	.imgStar_1, .imgStar_2{width:16px;height:16px;vertical-align:middle;margin-left:-10px;;margin-right:10px}
 	.imgStar_2{display:none}
-	.favStar_2, .favStar_3{display:none;width:26px;float:right;margin-right:35px}
-	.favStar_2{height:26px;}
-	.favStar_3{height:33px;}
+	.favStar{display:none;width:26px;float:right;margin-right:35px;margin-top:5px;}
 /*стиль поля +- и кнопки "В корзину" */
 	.toCart{margin:5px 15px 0 0;float:right; }
 	.plus{margin-right: -4px;border-right:0;width:28px;height:28px}
